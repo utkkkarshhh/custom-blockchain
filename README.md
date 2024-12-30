@@ -14,7 +14,8 @@ OR
 Create a virtual environment, preferably named `'env'` and install all the requirements from `requirements.txt`
 
 ```bash
-- python -m venv env
+- python -m venv env #Creates a virtual environment
+- pip install -r requirements.txt #Install all the requirements
 ```
 
 2. Setup a .env file. Take reference for `.env.example`
