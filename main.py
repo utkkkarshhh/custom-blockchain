@@ -1,8 +1,8 @@
-from settings import Settings
+from src.structure import Block
 
 def main():
-    print(f"SECRET_KEY: {Settings.Secrets.SECRET_KEY}")
-    print(f"DEBUG: {Settings.Secrets.DEBUG}")
+    genesis_block = Block(0, "0", "Genesis Block") 
+    print(genesis_block)   
 
 if __name__ == '__main__':
     main()
