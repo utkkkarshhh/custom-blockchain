@@ -1,6 +1,6 @@
 ## Project requirements:
 
-1. Setup `Python 3.12.4` Environment:
+### 1. Setup `Python 3.12.4` Environment:
 
 You can create a `pyenv` in Linux/MacOS.
 ```bash
@@ -18,4 +18,6 @@ Create a virtual environment, preferably named `'env'` and install all the requi
 - pip install -r requirements.txt #Install all the requirements
 ```
 
-2. Setup a .env file. Take reference for `.env.example`
+### 2. Setup a .env file. Take reference for `.env.example`
+
+### 3. Run ``python main.py``
